@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: kube-apiserver
   labels:
-    app: kube-apiserver
+    component: kube-apiserver
 spec:
   type: NodePort
   ports:
